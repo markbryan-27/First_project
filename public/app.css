@@ -1,0 +1,103 @@
+/* Reset & body setup */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Background full-screen */
+.background {
+    background: url('/image/house.png') no-repeat center center fixed;
+    background-size: cover;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Center login form */
+.login-container {
+    background: transparent;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: none;
+}
+
+/* Label styling above inputs */
+.input-label {
+    font-weight: bold;
+    color: white;
+    font-size: 14px;
+    display: block;
+    margin-bottom: 5px;
+    margin-top: 15px;
+}
+
+/* Input styling */
+.login-box {
+    width: 300px;
+    margin-bottom: 5px;
+    padding: 12px;
+    border: 1px solid #999;
+    box-shadow: 1px 1px 4px rgba(0,0,0,0.1);
+    font-size: 16px;
+    background-color: rgba(255, 255, 255, 0.85);
+    outline: none;
+}
+
+/* Sign in button styling - smaller and centered */
+.login-button {
+    width: 120px;
+    padding: 10px 0;
+    font-size: 16px;
+    background: white;
+    border: 1px solid #999;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+.login-button:hover {
+    background: #f5f5f5;
+}
+
+/* Button container to center the button */
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* Remember + forgot password section */
+.options {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* White text for remember me and forgot password */
+.options label {
+    color: white;
+}
+
+.options a {
+    color: white;
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background: #0d3e24;
+    color: white;
+    padding: 20px;
+    text-align: left;
+    font-size: 14px;
+}
+
+
